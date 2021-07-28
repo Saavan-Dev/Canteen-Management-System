@@ -1,0 +1,73 @@
+body 
+{
+	background: url(images/gallery4.jpg);
+	background-size:cover;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	
+}
+
+strong
+{
+	font-size:50px;
+	font-family: sans-serif;
+	color:red;
+
+}
+
+ h2
+ {
+ 	font-family: sans-serif;
+ }
+
+
+.side
+	{
+
+
+		width: 275px;
+		height: 100%;
+		background: #E1BEE7;
+		position: fixed;
+	    z-index:99;
+
+ 		transition: .75px;
+		overflow: auto; 
+		left: -250px;
+	}
+
+#switch
+	{
+
+		display:none;
+
+	}
+
+.botton
+ 	{
+
+		position: absolute;
+		top:13%;
+		left: 3%;
+		transform: translate(-50%,-50%);
+
+		font-size: 40px;
+		color:black;
+		padding: 25px;
+}
+
+.cross
+	{
+		position: absolute;
+		top:0%;
+		right: 3%;
+		color: black;
+		font-size: 40px;
+
+ 	}
+#switch:checked ~ .side{
+
+	left: 0px;
+}
+
